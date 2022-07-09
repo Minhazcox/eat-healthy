@@ -1,7 +1,18 @@
-section {
-    margin-bottom: 100px;
-}
-
 .half-width {
     width: 50%;
+    display: flex;
+}
+
+.half-width img {
+    width: 50%;
+    position: right;
+}
+
+.half-width h1 {
+    font-family: Montserrat;
+    font-weight: 900;
+    line-height: 130%;
+    width: auto;
+    letter-spacing: -2%;
+    text-align: left top;
 }
