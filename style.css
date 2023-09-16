@@ -18,6 +18,63 @@
     font-style: normal;
 }
 
+body {
+    max-width: 1200px;
+    max-height: fit-content;
+    margin: 0 auto;
+}
 
+.header-container {
+    display: flex;
+    margin-bottom: 50px;
+}
 
-.btn-primary {}
+.skip {
+    color: #FB8B47;
+}
+
+.left_part {
+    color: #575757;
+}
+
+.top-writings {
+    font-family: 'montserrat_bold';
+    font-size: 60px;
+    line-height: 130%;
+    letter-spacing: -2%;
+}
+
+.bottom-writings {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family: 'montserrat_medium';
+    font-size: 20px;
+    line-height: 160%;
+    letter-spacing: -2%;
+    color: #828282;
+}
+
+.header-image img {
+    width: 792px;
+    height: 843px;
+}
+
+.header-writings {
+    width: 50%;
+    margin-top: 130px;
+}
+
+.header-image {
+    width: 50%;
+}
+
+.btn-primary {
+    background-image: linear-gradient(to right, rgb(251, 162, 79), rgb(253, 81, 49));
+    padding: 24px 32px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 100px;
+    width: 192px;
+    height: 68px;
+}
