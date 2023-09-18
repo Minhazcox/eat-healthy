@@ -16,11 +16,17 @@
         url('fonts/montserrat-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+
+    font-family: 'manrope_regular';
+    src: url('fonts/manrope-regular-webfont.woff2') format('woff2'),
+        url('fonts/manrope-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
 body {
     max-width: 1200px;
-    max-height: fit-content;
+    max-height: auto;
     margin: 0 auto;
 }
 
@@ -77,4 +83,41 @@ body {
     border-radius: 100px;
     width: 192px;
     height: 68px;
+}
+
+.about-me {
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+}
+
+.about-me-container {
+    display: flex;
+}
+
+.about-me-image {
+    width: 50%;
+}
+
+.about-me-image img {
+    width: 338px;
+    height: 536px;
+}
+
+.about-me-info {
+    width: 50%;
+}
+
+.about-top {
+    font-family: 'montserrat_bold';
+    font-size: 40px;
+    line-height: 54px;
+    color: #707070;
+}
+
+.about-bottom {
+    font-family: 'manrope_regular';
+    font-size: 18px;
+    line-height: 32px;
+    color: #18191F;
+    letter-spacing: 0;
 }
