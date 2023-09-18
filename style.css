@@ -22,6 +22,18 @@
         url('fonts/manrope-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+
+    font-family: 'manrope_bold';
+    src: url('fonts/manrope-bold-webfont.woff2') format('woff2'),
+        url('fonts/manrope-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+    font-family: 'manrope_extra_bold';
+    src: url('fonts/manrope-extrabold-webfont.woff2') format('woff2'),
+        url('fonts/manrope-extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
 body {
@@ -196,4 +208,91 @@ body {
     line-height: 30px;
     color: #18191F;
     padding-right: 40px;
+}
+
+footer {
+    width: 1440px;
+    height: auto;
+}
+
+.followers {
+    width: 1240px;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 120px;
+}
+
+.footer-top {
+    display: flex;
+    padding: 21px 98px;
+    gap: 30px;
+    box-shadow: 1px 1px 30px grey;
+    border-radius: 20px;
+    padding-bottom: 150px;
+}
+
+.footer-bottom {
+    text-align: center;
+}
+
+.n-followers {
+    width: 350px;
+    height: 26px;
+    font-family: 'montserrat_bold';
+    font-size: 48px;
+    line-height: 64px;
+    color: #18191F;
+}
+
+.follow {
+    width: 350px;
+    height: 50px;
+}
+
+.social-media {
+    width: 302px;
+    height: 26px;
+    font-family: 'montserrat_regular';
+    font-size: 16px;
+    line-height: 26px;
+    color: #18191F;
+}
+
+.space {
+    padding-left: 100px;
+}
+
+.main-footer {
+    width: 1440px;
+    height: auto;
+    margin: 0 auto;
+    background-color: #0B0D17;
+}
+
+.footer-bottom {
+    padding-top: 20px;
+}
+
+.footer-title {
+    font-family: 'manrope_extra_bold';
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.eat {
+    background: linear-gradient(to right, rgb(251, 162, 79), rgb(253, 81, 49));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.fresh {
+    color: #5b5b5b;
+}
+
+.footer-p {
+    color: #fff;
+    font-family: 'montserrat_regular';
+    font-size: 16px;
+    line-height: 26px;
+    padding-bottom: 100px;
 }
